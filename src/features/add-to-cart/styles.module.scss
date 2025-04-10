@@ -1,0 +1,25 @@
+.button {
+  text-decoration: none;
+  padding: 3px 8px;
+  background-color: aquamarine;
+  border: 1px;
+  border-radius: 50%;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  cursor: pointer;
+}
+
+.image {
+  width: 11px;
+  height: 11px;
+}

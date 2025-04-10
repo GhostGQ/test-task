@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.info {
+  max-width: 1000px;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-weight: bold;
+    color: #e60023;
+    font-size: 1.5rem;
+  }
+  .description {
+    margin-top: 10px;
+    color: #555;
+  }
+}

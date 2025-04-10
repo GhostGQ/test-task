@@ -1,0 +1,23 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(91, 160, 162);
+  border-radius: 4px;
+
+  font-size: 24px;
+  padding: 12px;
+  transition: background-color 0.1s ease-in;
+
+  &:hover {
+    background-color: rgb(73, 130, 132);
+  }
+}
